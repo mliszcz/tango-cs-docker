@@ -17,8 +17,7 @@ RUN yum -y install epel-release \
     tango-admin \
     tango-starter \
     tango-db \
-    tango-accesscontrol \
-    tango-test \
+    tango-accesscontrol  \
  && rpm -e --nodeps mariadb mariadb-server \
  && rpm -qa 'perl*' | xargs rpm -e --nodeps
 

@@ -27,7 +27,7 @@ after_script:
   - docker rm -f tango-build
 
 before_deploy:
-  - docker login -u ingvord -p "$REGISTRY_PASS"
+  - docker login -u "$REGISTRY_USER" -p "$REGISTRY_PASS"
   - docker tag tangocs/tango-cs tangocs/tango-cs:${TRAVIS_BRANCH}
 
 deploy:

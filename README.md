@@ -26,7 +26,7 @@ docker run -it --rm --name tango_databaseds \
   -e MYSQL_USER=tango \
   -e MYSQL_PASSWORD=tango \
   -e MYSQL_DATABASE=tango \
-  tangocs/tango:latest
+  tangocs/tango-cs:latest
 ```
 
 Check the `.travis.yml` file to see how to set up a database inside a Docker

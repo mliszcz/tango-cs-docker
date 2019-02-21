@@ -1,1 +1,1 @@
-docker build -t camtango_nodb:latest .
+docker build -t tango_nodb:latest .

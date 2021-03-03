@@ -21,7 +21,7 @@ before_script:
   - docker exec tango-build make install
 
 script:
-  - docker build -t tangocs/tango-cs .
+  - docker build -t tangocs/tango-cs/debian .
 
 after_script:
   - docker rm -f tango-build
